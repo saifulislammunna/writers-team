@@ -105,4 +105,28 @@ const writes = [
       occupation:'Author',
       books : 34
   },
+  {
+      img:'https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg',
+      name: 'Albert Einstein',
+      born: ' March 14, 1879',
+      education:' University of Zurich (1905)',
+      occupation:'Author',
+      books : 45
+  },
+  {
+      img:'https://images.newscientist.com/wp-content/uploads/2021/04/16153830/richard_feynman.jpg',
+      name: 'Richard Feynman',
+      born: ' May 11, 1918',
+      education:'  Massachusetts Institute of Technology',
+      occupation:'Author',
+      books : 12
+  },
+  {
+      img:'https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781605989402/stephen-hawking-9781605989402_hr.jpg',
+      name: 'Stephen Hawking',
+      born: ' January 8, 1942',
+      education:'  St Albans School, Hertfordshire',
+      occupation:'Scientist',
+      books : 23
+  },
 ]

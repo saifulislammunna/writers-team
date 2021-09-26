@@ -12,7 +12,7 @@ import React from 'react';
      return (
          <div className="writer rounded-3">
              <img  className="rounded-3"  src={img} width="300" height="240" alt="" />
-             <h2 className="writer-name">   Writer Name :{name}</h2>
+             <h2 className="writer-name fs-3 pt-2"> Name :{name}</h2>
             <p>Born:{born}</p>
             <p>Education:{education}</p>
             <p>Occupation:{occupation}</p>
