@@ -11,9 +11,9 @@ const Writers = () => {
    .then(data => setWriters(data));
  },[])
   return (
-    <div className="writers-container">
-       
-      {
+    <div className="writers">
+       <div className="writers-container">
+       {
         writers.map(writer =>  <Writerx 
           writer={writer}
           key={writer.name}
@@ -21,6 +21,13 @@ const Writers = () => {
 
           </Writerx>)
       }
+       </div>
+       <div className="books-added">
+         <h3>Writers Added :</h3>
+         <h5>Total Books:</h5>
+
+       </div>
+   
     </div>
   );
 };
