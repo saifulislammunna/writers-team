@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Book from '../Book/Book';
 import Writerx from '../Writerx/Writerx';
 import './Writers.css';
  
@@ -31,8 +32,7 @@ const Writers = () => {
        
        </div>
        <div className="books-added">
-         <h3>Writers Added :{bookAdded.length}</h3>
-         <h5>Total Books:</h5>
+        <Book bookAdded={bookAdded}></Book>
         
 
        </div>
