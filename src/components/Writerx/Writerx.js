@@ -11,7 +11,7 @@
     //  console.log(props.writer);
      return (
          <div className="writer">
-             <img   src={img} alt="" />
+             <img   src={img} width="300" height="240" alt="" />
              <h2 className="writer-name">   Writer Name :{name}</h2>
             <p>Born:{born}</p>
             <p>Education:{education}</p>

@@ -13,11 +13,16 @@ const Book = (props) => {
              <h3>Writers Added:{props.bookAdded.length} </h3>
          <h5>Total Books: {total}</h5>
           <hr />
-          <div className="text-center">
-            <ul className= " ">
-            <li className="added-writer-name">{names}</li>
+           
+            <div>
+                <ul class="list ">
+                 <li class="list-item "> {names}</li>
+                 
             </ul>
-          </div> 
+             
+            </div>
+            
+             
         </div>
     );
 };
