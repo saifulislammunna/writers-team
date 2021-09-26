@@ -16,7 +16,7 @@ const Book = (props) => {
           <hr />
            
             <div>
-                <ul class="list ">
+                <ul class="list">
                  <li class="list-item "> {names}</li>
                  
             </ul>
