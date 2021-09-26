@@ -7,11 +7,12 @@
      return (
          <div className="writer">
              <img   src={img} alt="" />
-             <h2>   Writer Name :{name}</h2>
+             <h2 className="writer-name">   Writer Name :{name}</h2>
             <p>Born:{born}</p>
             <p>Education:{education}</p>
             <p>Occupation:{occupation}</p>
             <p>Books:{books}</p>
+            <button className="btn-regular">Books Added</button>
 
          </div>
      );

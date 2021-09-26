@@ -16,15 +16,17 @@ const Writers = () => {
        {
         writers.map(writer =>  <Writerx 
           writer={writer}
-          key={writer.name}
+          key={writer.key}
            >
 
           </Writerx>)
       }
+       
        </div>
        <div className="books-added">
          <h3>Writers Added :</h3>
          <h5>Total Books:</h5>
+        
 
        </div>
    

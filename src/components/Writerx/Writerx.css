@@ -7,3 +7,16 @@
 .writer img{
     width: 200px;
 }
+.writer-name{
+    color: #000000;
+    font-weight: 400;
+}
+.btn-regular{
+    background-color:rgba(2, 61, 71, 0.882);
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgba(2, 61, 71, 0.9);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
