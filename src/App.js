@@ -9,7 +9,9 @@ function App() {
  
   return (
     <div className="App">
+      {/* calling Header component  */}
        <Header></Header>
+       {/* calling Writers component */}
       <Writers></Writers>
     </div>
   );

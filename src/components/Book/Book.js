@@ -1,5 +1,6 @@
 import React from 'react';
 import './Book.css';
+/* book component */
 const Book = (props) => {
     const {bookAdded} = props;
     let total = 0;

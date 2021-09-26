@@ -3,7 +3,7 @@ import Book from '../Book/Book';
 import Writerx from '../Writerx/Writerx';
 import './Writers.css';
  
-
+/* writers component  */
 const Writers = () => {
  const [writers, setWriters] = useState([]);
  const [bookAdded , setBookAdded] = useState([]);
@@ -33,7 +33,7 @@ const Writers = () => {
        </div>
        <div className="books-added">
         <Book bookAdded={bookAdded}></Book>
-        
+          
 
        </div>
    

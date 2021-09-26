@@ -1,3 +1,4 @@
+/* Writers style given here */
 .writers-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
