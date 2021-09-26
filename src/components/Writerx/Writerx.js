@@ -2,8 +2,9 @@
  import './Writerx.css'
  
  const Writerx = (props) => {
+    //  console.log(props)
      const {img,name,born,education,occupation,books}=props.writer;
-     console.log(props.writer);
+    //  console.log(props.writer);
      return (
          <div className="writer">
              <img   src={img} alt="" />
@@ -12,7 +13,10 @@
             <p>Education:{education}</p>
             <p>Occupation:{occupation}</p>
             <p>Books:{books}</p>
-            <button className="btn-regular">Books Added</button>
+            <button 
+            onClick={() => props.handleBookAdded(props.writer)
+            }
+            className="btn-regular">Books Added</button>
 
          </div>
      );
