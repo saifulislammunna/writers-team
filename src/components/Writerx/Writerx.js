@@ -1,9 +1,13 @@
  import React from 'react';
+ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+ import {  faBook} from '@fortawesome/free-solid-svg-icons'
+
  import './Writerx.css'
  
  const Writerx = (props) => {
     //  console.log(props)
      const {img,name,born,education,occupation,books}=props.writer;
+   
     //  console.log(props.writer);
      return (
          <div className="writer">
@@ -16,7 +20,7 @@
             <button 
             onClick={() => props.handleBookAdded(props.writer)
             }
-            className="btn-regular">Books Added</button>
+            className="btn-regular"><FontAwesomeIcon icon={faBook} /> Books Added</button>
 
          </div>
      );

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Book.css'
+import './Book.css';
 const Book = (props) => {
     const {bookAdded} = props;
     let total = 0;
@@ -12,7 +12,12 @@ const Book = (props) => {
         <div>
              <h3>Writers Added:{props.bookAdded.length} </h3>
          <h5>Total Books: {total}</h5>
-         <p>{names}</p>
+          <hr />
+          <div className="text-center">
+            <ul className= " ">
+            <li className="added-writer-name">{names}</li>
+            </ul>
+          </div> 
         </div>
     );
 };
