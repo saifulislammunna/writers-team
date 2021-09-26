@@ -22,7 +22,7 @@ const Writers = () => {
        {
         writers.map(writer =>  <Writerx 
           writer={writer}
-          key={writer.key}
+          key={writer.name}
           handleBookAdded ={handleBookAdded}
            >
 

@@ -9,6 +9,7 @@ const Book = (props) => {
       total = total + book.books;
       names = names + book.name;
     }
+  
     return (
         <div>
              <h3>Writers Added:{props.bookAdded.length} </h3>
@@ -17,7 +18,9 @@ const Book = (props) => {
            
             <div>
                 <ul class="list">
-                 <li class="list-item "> {names}</li>
+              
+               
+             <li class="list-item "> {names}</li>
                  
             </ul>
              
