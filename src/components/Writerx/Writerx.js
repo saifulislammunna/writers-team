@@ -3,7 +3,7 @@ import React from 'react';
  import {  faBook} from '@fortawesome/free-solid-svg-icons'
 
  import './Writerx.css'
- /* writex component */
+ /* writerx component */
  const Writerx = (props) => {
     //  console.log(props)
      const {img,name,born,education,occupation,books}=props.writer;
