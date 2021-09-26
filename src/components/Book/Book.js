@@ -17,10 +17,10 @@ const Book = (props) => {
           <hr />
            
             <div>
-                <ul class="list">
+                <ul className="list">
               
                
-             <li class="list-item "> {names}</li>
+             <li className="list-item "> {names}</li>
                  
             </ul>
              

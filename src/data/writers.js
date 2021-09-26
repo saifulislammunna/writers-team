@@ -97,14 +97,7 @@ const writes = [
       occupation:'Author',
       books : 34
   },
-  {
-      img:'https://media.sciencephoto.com/image/c0409812/800wm',
-      name: 'Enrico Fermi',
-      born: 'September 29, 1901',
-      education:' Leiden University (1923–1924)',
-      occupation:'Author',
-      books : 34
-  },
+  
   {
       img:'https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg',
       name: 'Albert Einstein',
