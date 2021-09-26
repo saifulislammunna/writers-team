@@ -89,4 +89,20 @@ const writes = [
       occupation:'Author',
       books : 43
   },
+  {
+      img:'https://media.sciencephoto.com/image/c0409812/800wm',
+      name: 'Enrico Fermi',
+      born: 'September 29, 1901',
+      education:' Leiden University (1923–1924)',
+      occupation:'Author',
+      books : 34
+  },
+  {
+      img:'https://media.sciencephoto.com/image/c0409812/800wm',
+      name: 'Enrico Fermi',
+      born: 'September 29, 1901',
+      education:' Leiden University (1923–1924)',
+      occupation:'Author',
+      books : 34
+  },
 ]

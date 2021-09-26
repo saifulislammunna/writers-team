@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  import {  faBook} from '@fortawesome/free-solid-svg-icons'
 
@@ -10,8 +10,8 @@
    
     //  console.log(props.writer);
      return (
-         <div className="writer">
-             <img   src={img} width="300" height="240" alt="" />
+         <div className="writer rounded-3">
+             <img  className="rounded-3"  src={img} width="300" height="240" alt="" />
              <h2 className="writer-name">   Writer Name :{name}</h2>
             <p>Born:{born}</p>
             <p>Education:{education}</p>

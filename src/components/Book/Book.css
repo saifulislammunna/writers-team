@@ -1,2 +1,10 @@
- 
+.fw-bold {
+    font-weight: 700!important;
+     
+}
+.list-item {
+    display: inline-block;
+
+}
+   
  
